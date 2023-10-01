@@ -34,11 +34,11 @@ public class HomePage {
 
 
 
-    public LoginPage formAuthanticationClick (){
-       clickOnLink(formAuthanticationLink);
-        return new LoginPage(driver);
+        public LoginPage formAuthanticationClick (){
+           clickOnLink(formAuthanticationLink);
+            return new LoginPage(driver);
 
-    }
+        }
 
     public CheckBoxPage checkBoxClick (){
         clickOnLink(checkBoxLink);
